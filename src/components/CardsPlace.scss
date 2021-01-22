@@ -1,0 +1,14 @@
+.cards-place{
+    width: 100%;
+    background-color: rgb(187, 183, 183);
+    flex-grow: 1;
+}
+
+.cards-list{
+    padding: 50px 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    row-gap: 15px;
+}
